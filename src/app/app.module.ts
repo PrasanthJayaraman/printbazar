@@ -5,9 +5,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { routesModule } from './app.routes';
 
 import { AppComponent } from './app.component';
-import { PokemonService } from './pokemon.service';
-import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
-import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
+import { PokemonService } from './services/pokemon.service';
+import { PokemonListComponent } from './pages/pokemon-list/pokemon-list.component';
+import { PokemonDetailsComponent } from './pages/pokemon-details/pokemon-details.component';
 
 @NgModule({
   declarations: [

@@ -1,6 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
-import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
-import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
+import { PokemonListComponent } from './pages/pokemon-list/pokemon-list.component';
+import { PokemonDetailsComponent } from './pages/pokemon-details/pokemon-details.component';
 
 let routes: Routes = [
 	{
