@@ -49,9 +49,9 @@ app.set('views', join(DIST_FOLDER));
 app.get('/*', express.static(join(DIST_FOLDER)));
 
 // All regular routes use the Universal engine
-/* app.get('*', (req, res) => {
+app.get('*', (req, res) => {
   res.render('index', { req });
-}); */
+}); 
 
 // Start up the Node server
 app.listen(PORT, () => {

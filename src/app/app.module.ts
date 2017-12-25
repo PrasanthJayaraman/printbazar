@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { PokemonService } from './services/pokemon.service';
 import { PokemonListComponent } from './pages/pokemon-list/pokemon-list.component';
 import { PokemonDetailsComponent } from './pages/pokemon-details/pokemon-details.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonListComponent,
-    PokemonDetailsComponent
+    PokemonDetailsComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),
